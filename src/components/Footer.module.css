@@ -1,0 +1,49 @@
+.footerwrapper{
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;;
+
+}
+.footer
+{ 
+  height: fit-content;
+  width:90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.logodesc{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+.desc{
+  padding: 10px;
+}
+.logo{
+  height: 150px;
+  width: 150px;
+  background-blend-mode: color-burn;
+}
+.socialmedia{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}
+.links{
+  text-align: center;
+  padding: 10px;
+}
+.socialmedia img{
+  height: 30px;
+  width: 30px;
+}
+.otherlinks{
+  background-color: aqua;
+}
