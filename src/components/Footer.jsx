@@ -1,7 +1,12 @@
 import React from "react";
 import classes from "./Footer.module.css";
 import logo from "../assets/img/logo.png";
-import ImgList from "./ImgList";
+import ImgList from "./ImgList";  
+import FA from "../assets/img/FA.png";
+import IS from "../assets/img/IS.png";
+import LN from "../assets/img/LN.png";
+import X from "../assets/img/X.png";
+
 const Footer = () => {
   //upperpart with form and appoinment
   // side with logo descriptiona nd social media links
@@ -19,33 +24,40 @@ const Footer = () => {
           <div className={classes.socialmedia}>
             <img
               className={classes.socialmediaimg}
-              src="https://img.icons8.com/ios-filled/50/000000/facebook-new.png"
+              src={FA}
               alt="facebook"
             />
             <img
               className={classes.socialmediaimg}
-              src="https://img.icons8.com/ios-filled/50/000000/instagram-new.png"
+              src={IS}
               alt="instagram"
             />
             <img
               className={classes.socialmediaimg}
-              src="https://img.icons8.com/ios-filled/50/000000/twitter.png"
-              alt="twitter"
+              src={X}
+              alt="X"
             />
             <img
               className={classes.socialmediaimg}
-              src="https://img.icons8.com/ios-filled/50/000000/linkedin.png"
+              src={LN}
               alt="linkedin"
             />
           </div>
         </div>
         <div className={classes.links}>
-          <ul>
-           <ImgList/>
-           <ImgList/>
-            <li>Medicines</li>
-            <li>Doctors</li>
-            <li>Emergency</li>
+          <ul className={classes.ul}>
+            <ImgList icon={logo} desc={"gohere"}>
+              HelthCare
+            </ImgList>
+            <ImgList icon={logo} desc={"gohere"}>
+              Medicines
+            </ImgList>
+            <ImgList icon={logo} desc={"gohere"}>
+            Doctors
+            </ImgList>
+            <ImgList icon={logo} desc={"gohere"}>
+              Emergency
+            </ImgList>
           </ul>
         </div>
         <div className={classes.contactus}>

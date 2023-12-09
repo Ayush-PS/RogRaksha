@@ -56,7 +56,7 @@ function Header() {
             <Tooltip>
               <IconButton href={pages[0].to}>
                 {/* <Avatar alt="Shree" src="ss.jpg" sx={{ bgcolor: "grey" }} /> */}
-                <Avatar src={logo} style={{ filter: "invert(100%)" }} />
+                <Avatar src={logo} style={{ filter: "invert(100%)"}} />
               </IconButton>
             </Tooltip>
             {/* <Menu
