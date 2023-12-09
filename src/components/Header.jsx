@@ -1,5 +1,4 @@
 import React from "react";
-import classes from "./Header.module.css";
 import logo from "../assets/img/logo.png";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
@@ -13,7 +12,6 @@ import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
-import { Filter } from "@mui/icons-material";
 
 const pages = [
   { id: 1, name: "Home", to: "/" },
@@ -29,25 +27,14 @@ const pages = [
 
 function Header() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
-  const [anchorElUser, setAnchorElUser] = React.useState(null);
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
-  const handleOpenUserMenu = (event) => {
-    setAnchorElUser(event.currentTarget);
-  };
-
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
 
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
-  };
-  const avatarStyle = {
-    filter: "invert(100%)",
-  };
   return (
     <AppBar position="static" style={{ backgroundColor: "#001830"}}>
       <Container maxWidth="xl">

@@ -1,8 +1,10 @@
 import React from "react";
 import classes from "./Home.module.css";
-import { Button } from "@mui/material";
 
 function Home() {
+    function handleClick() {
+        window.location.href = "/Contact";
+      }
   return (
     <div className={classes.home}>
       <div className={classes.th}>
@@ -11,7 +13,7 @@ function Home() {
         <p>Embrace the future with our comprehensive digital transformation services.
               We help businesses adapt to the ever-evolving digital landscape and stay ahead of the competition.With a focus on innovation and client satisfaction,
           we strive to deliver exceptional solutions.</p>
-          <button className={classes.btn}>Book an Appointment</button>
+          <button onClick={handleClick} className={classes.btn}>Book an Appointment</button>
       </div>
     </div>
   );
