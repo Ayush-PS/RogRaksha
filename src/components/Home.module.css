@@ -1,0 +1,44 @@
+.home{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: url("https://th.bing.com/th/id/R.29689ee695358c7a4d9f7113503e0ce1?rik=6HIuZS76Z69kyg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f9%2f9%2fa%2f303223.jpg&ehk=wKbX8kutaqpX0Mpjt8FXrT2OovGoag4up3GOuaBTmME%3d&risl=&pid=ImgRaw&r=0");
+    background-position: right;
+    background-size: cover;
+}
+.btn{
+    color: white;
+    background-color: #052f58;
+    font-size: large;
+    border: none;
+    border-radius: 4px;
+    padding: 0.7rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+}
+.btn:hover{
+    background-color: #0e4b88;
+}
+.th{
+    padding: 6rem;
+    width: 50%;
+}
+h4{
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: rgb(158, 96, 3);
+}
+h1{
+    color: rgb(4, 12, 116);
+    font-size: 4rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+p{
+    color: rgb(76, 75, 75);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
