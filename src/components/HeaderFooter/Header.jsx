@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/img/logo.png";
+import logo from "../../assets/img/logo.png";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -14,7 +14,7 @@ import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import { useAuth0 } from "@auth0/auth0-react";
 
-import classes from "./Header.module.css";
+import classes from "../Styles/Header.module.css";
 
 const pages = [
   { id: 1, name: "Home", to: "/" },
@@ -23,11 +23,6 @@ const pages = [
   { id: 4, name: "Emergency", to: "/Meeting" },
   { id: 5, name: "Appointment", to: "/AppointmentForm" },
 ];
-// const settings = [
-//   { id: 1, name: "Education", to: "/Education" },
-//   { id: 2, name: "Position of Responsibility", to: "/Post" },
-//   { id: 3, name: "Other Platforms", to: "/Other" },
-// ];
 
 function Header() {
   const { loginWithRedirect, logout, isAuthenticated } = useAuth0();
@@ -48,44 +43,11 @@ function Header() {
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip>
               <IconButton href={pages[0].to}>
-                {/* <Avatar alt="Shree" src="ss.jpg" sx={{ bgcolor: "grey" }} /> */}
                 <Avatar src={logo} style={{ filter: "invert(100%)" }} />
               </IconButton>
             </Tooltip>
-            {/* <Menu
-              sx={{ mt: "45px" }}
-              id="menu-appbar"
-              anchorEl={anchorElUser}
-              anchorOrigin={{
-                vertical: "top",
-                horizontal: "right",
-              }}
-              keepMounted
-              transformOrigin={{
-                vertical: "top",
-                horizontal: "right",
-              }}
-              open={Boolean(anchorElUser)}
-              onClose={handleCloseUserMenu}
-            >
-              {settings.map((setting) => (
-                <MenuItem
-                  key={setting}
-                  href={setting.to}
-                  onClick={handleCloseUserMenu}
-                >
-                  <Button
-                    href={setting.to}
-                    key={setting.name}
-                    sx={{ my: 3, mr: 1, color: "brown", display: "block" }}
-                  >
-                    {setting.name}
-                  </Button>
-                </MenuItem>
-              ))}
-            </Menu> */}
           </Box>
-          {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}
+         
           <Typography
             variant="h6"
             noWrap
@@ -106,7 +68,6 @@ function Header() {
             RogRaksha
           </Typography>
 
-          {/* <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} /> */}
           <Typography
             variant="h5"
             noWrap

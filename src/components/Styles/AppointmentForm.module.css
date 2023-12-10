@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   height: 90vh;
-  background-image: url("https://www.missouripartnership.com/wp-content/uploads/2018/01/iStock-695349930.jpg");
+  background-image: url("https://img.freepik.com/free-photo/physician-with-co-workers-blurred-background_1098-579.jpg?w=1800&t=st=1702226311~exp=1702226911~hmac=630850b9e0dddbbeb4302b167408c70d30d3d23fc55961b2a5d51378d7620938");
   background-position: center;
 }
 .appointmentFormContainer {
@@ -12,9 +12,13 @@
   margin: 0 auto;
   padding: 20px;
   border: 1px solid #ccc;
-  border-radius: 8px;
+  /* border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
+  background-color: #fff; */
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  backdrop-filter: blur(10px); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
   
 }
 .appointmentFormContainer h2{

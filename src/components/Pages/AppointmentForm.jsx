@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import React, { useState } from "react";
-import classes from "./AppointmentForm.module.css";
+import classes from "../Styles/AppointmentForm.module.css";
 
 const AppointmentForm = () => {
   const [patientName, setPatientName] = useState("");
@@ -32,10 +32,13 @@ const AppointmentForm = () => {
   };
 
   return (
-    <motion.div className={classes.appointmentFormWrapper} initial="hidden"
-    animate="visible"
-    variants={containerVariants}
-    transition={{ duration: 1, ease: 'easeInOut' }}>
+    <motion.div
+      className={classes.appointmentFormWrapper}
+      initial="hidden"
+      animate="visible"
+      variants={containerVariants}
+      transition={{ duration: 1, ease: "easeInOut" }}
+    >
       <div className={classes.appointmentFormContainer}>
         <h2>Book an Appointment</h2>
         {isAppointmentBooked ? (

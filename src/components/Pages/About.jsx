@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./About.module.css";
+import classes from "../Styles/About.module.css";
 import { motion } from "framer-motion";
 function About() {
   const colors = [
@@ -15,10 +15,13 @@ function About() {
     visible: { opacity: 1 },
   };
   return (
-    <motion.div className={classes.abt} initial="hidden"
-    animate="visible"
-    variants={containerVariants}
-    transition={{ duration: 1, ease: 'easeInOut' }}>
+    <motion.div
+      className={classes.abt}
+      initial="hidden"
+      animate="visible"
+      variants={containerVariants}
+      transition={{ duration: 1, ease: "easeInOut" }}
+    >
       <div className={classes.container}>
         {/* First Row */}
         <div className={classes.row}>
@@ -40,7 +43,10 @@ function About() {
                 <div className={classes.content}>
                   <h3>Request Appointment</h3>
                   <hr></hr>
-                  <p>You can quickly book your appointment as we make all efforts run on time.</p>
+                  <p>
+                    You can quickly book your appointment as we make all efforts
+                    run on time.
+                  </p>
                 </div>
               )}
             </div>
@@ -55,16 +61,26 @@ function About() {
               className={classes.square}
               style={{ backgroundImage: color }}
             >
-              {(index==1) && <div className={classes.content}>
-              <h3>Find the best Doctors</h3>
+              {index == 1 && (
+                <div className={classes.content}>
+                  <h3>Find the best Doctors</h3>
                   <hr></hr>
-                  <p>Highly skilled medical physician with 30 years of experience in clinic.</p>
-              </div>}
-              {(index==3) && <div className={classes.content}>
-              <h3>Our Location Support</h3>
+                  <p>
+                    Highly skilled medical physician with 30 years of experience
+                    in clinic.
+                  </p>
+                </div>
+              )}
+              {index == 3 && (
+                <div className={classes.content}>
+                  <h3>Our Location Support</h3>
                   <hr></hr>
-                  <p>In clinic all locations we commands to give patients have suitable care.</p>
-              </div>}
+                  <p>
+                    In clinic all locations we commands to give patients have
+                    suitable care.
+                  </p>
+                </div>
+              )}
             </div>
           ))}
         </div>
