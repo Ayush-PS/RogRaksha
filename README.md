@@ -1,6 +1,45 @@
-# Getting Started with Create React App
+# RogRaksha - Your HealthCare Companion
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Welcome to RogRaksha – your all-in-one solution for personalized health management. RogRaksha empowers users with essential features designed to streamline your healthcare experience.
+
+![image](https://drive.google.com/uc?export=view&id=1r3D0SZHwPUfKZOtvoMEgyKS_INmUlVUi)
+## Features
+
+### 1. Book Appointments
+- Effortlessly schedule appointments with healthcare professionals, ensuring convenient access to medical care.
+![image](https://drive.google.com/uc?export=view&id=1bChX0xqo-8EF-bUG0kq7U-GR_vkvvHqj)
+### 2. Emergency Appointments
+- Instantly book emergency appointments for urgent medical needs, connecting you with available healthcare providers promptly.
+![image](https://drive.google.com/uc?export=view&id=1Pq4b56b-TtEMkSHGcdMeQwLRB95fZy1T)
+### 3. Medicine Timer
+- Stay on top of your medication schedule with our Medicine Timer feature. Set reminders for your prescriptions to never miss a dose.
+![image](https://drive.google.com/uc?export=view&id=1Y46NHol5ub93ElkLaRGqTGuGFtbIhhc-)
+### 4. Doctor Information
+- Explore comprehensive profiles of our qualified doctors, including specialties, experience, and expertise.
+![image](https://drive.google.com/uc?export=view&id=1XNS4zoJyCvNvUihE5ertvvbveB1Bj7m3)
+### 5. Authentication with Auth0
+
+- **Secure Authentication:** RogRaksha employs Auth0 for robust and secure user authentication, supporting social media login, email/password authentication, and customizable login pages.
+![image](https://drive.google.com/uc?export=view&id=187AnVREMvcbqIRo-Io8lBMXb6Dmiky9X)
+  [Learn More about Auth0](https://auth0.com/)
+
+### 5. Chat Bot (Coming Soon)
+We're working on integrating a Chat Bot for instant support and quick answers to health-related queries. Exciting updates are on the horizon!
+
+## Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/RogRaksha.git
+   
+2. **Change into the project directory and start:**
+   ```bash
+   cd RogRaksha
+   npm install
+   npm start
+   
+
+  
 
 ## Available Scripts
 
