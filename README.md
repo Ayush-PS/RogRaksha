@@ -7,16 +7,17 @@
 
 ### 1. Book Appointments
 - Effortlessly schedule appointments with healthcare professionals, ensuring convenient access to medical care.
-![image](https://drive.google.com/uc?export=view&id=1bChX0xqo-8EF-bUG0kq7U-GR_vkvvHqj)
+![image](https://drive.google.com/uc?export=view&id=1E0tuYIvdxX8BfBSerlcW-RgFXc5eXvMt)
 ### 2. Emergency Appointments
+
 - Instantly book emergency appointments for urgent medical needs, connecting you with available healthcare providers promptly.
-![image](https://drive.google.com/uc?export=view&id=1Pq4b56b-TtEMkSHGcdMeQwLRB95fZy1T)
+![image](https://drive.google.com/uc?export=view&id=1iuVNgFik2_1nDxb-i0QhPa5a-nal4zjJ)
 ### 3. Medicine Timer
 - Stay on top of your medication schedule with our Medicine Timer feature. Set reminders for your prescriptions to never miss a dose.
-![image](https://drive.google.com/uc?export=view&id=1Y46NHol5ub93ElkLaRGqTGuGFtbIhhc-)
+![image](https://drive.google.com/uc?export=view&id=18Btf8E5qI-fTMXSN-NzBlp9dB7w76IVm)
 ### 4. Doctor Information
 - Explore comprehensive profiles of our qualified doctors, including specialties, experience, and expertise.
-![image](https://drive.google.com/uc?export=view&id=1XNS4zoJyCvNvUihE5ertvvbveB1Bj7m3)
+![image](https://drive.google.com/uc?export=view&id=1ErMAlEBRjeUT0k06IIg1qLgoIl1590cW)
 ### 5. Authentication with Auth0
 
 - **Secure Authentication:** RogRaksha employs Auth0 for robust and secure user authentication, supporting social media login, email/password authentication, and customizable login pages.
