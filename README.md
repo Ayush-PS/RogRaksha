@@ -1,32 +1,57 @@
 # RogRaksha - Your HealthCare Companion
 
 - Welcome to RogRaksha – your all-in-one solution for personalized health management. RogRaksha empowers users with essential features designed to streamline your healthcare experience.
+ <br> <br>
 
 ![image](https://drive.google.com/uc?export=view&id=1r3D0SZHwPUfKZOtvoMEgyKS_INmUlVUi)
 ## Features
 
 ### 1. Book Appointments
 - Effortlessly schedule appointments with healthcare professionals, ensuring convenient access to medical care.
+- We made booking online appointments Easier For Everyone just fill the details and the related doctors will get the notification
+- They then can Schedule appointment according to their calander <br><br>
 ![image](https://drive.google.com/uc?export=view&id=11ZdsosqdXXP-q7uzUqh-mf4HJRpo8oij)
 ### 2. Emergency Appointments
 - Instantly book emergency appointments for urgent medical needs, connecting you with available healthcare providers promptly.
+- Some time we don't have time to wait so this emergency feature sends a alert to all the doctors with a free slot at that time so they can attend you<br><br>
 ![image](https://drive.google.com/uc?export=view&id=1F9QUZEk9_hArM5piZm2iRVTppM1CJbvt)
 ### 3. Medicine Timer
 
 - Stay on top of your medication schedule with our Medicine Timer feature. Set reminders for your prescriptions to never miss a dose.
+- We implemented this feature keeping in mind old as well as very busy people just upload your prescription and you will be alerted when to take your medicines
+- In future we want to make it in such a way that it send a reminder to your phone as well as calander <br><br>
 ![image](https://drive.google.com/uc?export=view&id=1l7B6HLEMC_Vs5ldR1UmmGE4XlQlq3mga)
 ### 4. Doctor Information
 - Explore comprehensive profiles of our qualified doctors, including specialties, experience, and expertise.
+- A place where the information of all the doctors is available <br><br>
 ![image](https://drive.google.com/uc?export=view&id=1ErMAlEBRjeUT0k06IIg1qLgoIl1590cW)
 ### 5. Authentication with Auth0
 
 - **Secure Authentication:** RogRaksha employs Auth0 for robust and secure user authentication, supporting social media login, email/password authentication, and customizable login pages.
+- Support for social media login, email/password authentication, and customizable  login pages.
+- Password reset functionality and user profile management <br><br>
 ![image](https://drive.google.com/uc?export=view&id=187AnVREMvcbqIRo-Io8lBMXb6Dmiky9X)
   [Learn More about Auth0](https://auth0.com/)
 
 ### 5. Chat Bot (Coming Soon)
 We're working on integrating a Chat Bot for instant support and quick answers to health-related queries. Exciting updates are on the horizon!
 
+## Future Goals
+### 1. Link to a Backend
+- Implement a Node.js backend to store comprehensive data related to both users and doctors
+### 2. Accounts Page
+- Create dedicated account pages for users, doctors, and developers.
+- Provide an account page displaying relevant information based on the user's role.
+- Include a developer account page for issue tracking and resolution.
+### 3. Direct Video Call Feature
+- Current as there was some issue with the zoom api we implemented a mock vc feature
+- In future We want a fully function Vc supported by zoom which on being Scheduled By user shows up in both doctors and users calander
+### 4. Prescription Upload and Medicine Order
+- Develop a page allowing users to upload prescriptions.
+- Implement a feature for users to order medicines based on the uploaded prescriptions.
+### 5. A Payment Portal
+-Integrate a secure payment portal for direct transactions within the site.
+  
 ## Getting Started
 
 1. Clone the repository:
