@@ -20,7 +20,7 @@ const pages = [
   { id: 1, name: "Home", to: "/" },
   { id: 2, name: "About", to: "/About" },
   { id: 3, name: "Medicine", to: "/Medicine" },
-  { id: 4, name: "Emergency Meeting", to: "/Meeting" },
+  { id: 4, name: "Emergency", to: "/Meeting" },
   { id: 5, name: "Appointment", to: "/AppointmentForm" },
 ];
 // const settings = [
