@@ -1,0 +1,75 @@
+/* AppointmentForm.module.css */
+.appointmentFormWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-image: url("https://www.missouripartnership.com/wp-content/uploads/2018/01/iStock-695349930.jpg");
+  background-position: center;
+}
+.appointmentFormContainer {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  
+}
+.appointmentFormContainer h2{
+  color: #052f58;
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border-color: rgb(222, 222, 222);
+  box-shadow: none !important;
+  border-radius: 3px;
+}
+.input:hover{
+  border-color: rgb(173, 172, 172);
+}
+
+.submitBtn {
+  background-color: #052f58;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: medium;
+  font-weight: 500;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.submitBtn:hover {
+  background-color: #0b4b8a;
+  align-items: center;
+}
+
+.bookAnotherBtn {
+  background-color: #052f58;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.bookAnotherBtn:hover {
+  background-color: #0b4b8a;
+  align-items: center;
+}
+

@@ -1,0 +1,86 @@
+.abt {
+  padding: 3rem;
+}
+.ah {
+  color: rgb(15, 152, 207);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  width: 80%;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.bh {
+  color: rgb(4, 29, 75);
+  font-weight: 400;
+  text-align: left;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.bh:hover {
+  transform: scale(1.05);
+  transition: transform 0.5s ease-in-out;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+}
+
+.square {
+  width: 22rem; /* Adjust the width as needed */
+  height: 22rem; /* Set the height to match the width */
+  margin: 0.5rem; /* Add margin for spacing */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; /* Text color */
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+.square:hover {
+  transform: scale(1.05);
+  filter: grayscale(90%);
+  transition: transform 0.5s ease-in-out, filter 0.4s ease-in-out;
+  z-index: 1;
+}
+
+
+.square .content p{
+  /* display: none; */
+  transition: transform 0.5s ease-in-out;
+  opacity: 0;
+  transform: translateY(100%);
+}
+.square:hover .content p{
+  text-align: center;
+    width: 80%;
+    margin: auto auto;
+    margin-top: 2rem;
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.jr{
+    width: 45rem; /* Adjust the width as needed */
+    height: 22rem; /* Set the height to match the width */
+    margin: 0.5rem; /* Add margin for spacing */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Text color */
+  }
+
+.content {
+  text-align: center;
+  width: 80%;
+  color: white;
+}
+.content p{
+    text-align: center;
+    width: 80%;
+    color: white;
+  }
